@@ -43,7 +43,7 @@ input[type="radio"], input[type="checkbox"] {
 
 input[type="text"], input[type="password"], input[type="email"] {
     width: 100%;
-    padding: 15px;
+    padding: 1rem;
     border: 2px solid lightgray;
     outline: none;
     border-radius: 10px;
@@ -70,5 +70,56 @@ table{
 
 td, th{
     border: 1px solid black;
-    padding: 10px;
+    padding: 0.7rem;
+}
+
+details{
+    background-color: lightgreen;
+    border-radius: 5px;
+    color: rgba(22, 21, 21, 0.852);
+    
+}
+
+summary{
+    padding: 1rem;
+    cursor: pointer;
+}
+
+ol{
+    margin-left: 1rem;
+}
+
+ol li {
+    padding: 0.2rem;
+}
+
+fieldset{
+    padding: 1rem;
+    color: rgba(25, 24, 24, 0.863);
+    border-radius: 5px;
+}
+
+legend{
+    padding: 0 0.5rem;
+}
+
+textarea{
+    padding: 0.3rem;
+    border-radius: 5px;
+}
+
+button{
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+    background-color: #331F19;
+    text-align: center;
+    padding: 0.5rem;
+    color: white;
+}
+
+footer a {
+    text-decoration: none ;
 }
