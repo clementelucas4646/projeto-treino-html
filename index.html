@@ -5,16 +5,6 @@
     <meta name="description" content="Um quiz interativo para testar o seu conhecimento.">
     <title>Teste</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        table{
-            width: 350px;
-            border-collapse: collapse;
-        }
-        th, td{
-            border: 1px solid black;
-            padding: 5px;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -65,13 +55,13 @@
         <!-- Pergunta 1 - FORMULARIOS MULTIPLA ESCOLHA-->
         <section>
             <h2>P1: Qual linguagem é utilizada para estruturar páginas web?</h2>
-            <form>
+            <form id="teste">
                 <input type="radio" value="Python" name="pergunta1" id="p1a">
-                <label for="p1a">Python</label>
+                <label for="p1a">Python</label><br>
                 <input type="radio" value="HTML" name="pergunta1" id="p1b">
-                <label for="p1b">HTML</label>
+                <label for="p1b">HTML</label><br>
                 <input type="radio" value="Javascript" name="pergunta1" id="p1c">
-                <label for="p1c">Javascript</label>
+                <label for="p1c">Javascript</label><br>
                 <input type="radio" value="C++" name="pergunta1" id="p1d">
                 <label for="p1d">C++</label>
             </form>
@@ -157,15 +147,15 @@
                         <td>Ruim</td>
                     </tr>
                     <tr>
-                        <td>3-5</td>
+                        <td>4-6</td>
                         <td>Regular</td>
                     </tr>
                     <tr>
-                        <td>6-8</td>
+                        <td>7-8</td>
                         <td>Bom</td>
                     </tr>
                     <tr>
-                        <td>9-19</td>
+                        <td>9-10</td>
                         <td>Excelente</td>
                     </tr>
                 </tbody>
